@@ -1,0 +1,17 @@
+uuid: 92fda2ab-86af-4d9a-926d-a6c0d2458007
+langcode: fr
+status: true
+dependencies: {  }
+id: about_page
+label: 'About Page'
+token: false
+context:
+  show_warning: true
+  group:
+    language: false
+  fallback:
+    language: ''
+menu:
+  path: ''
+  weight: 0
+  description: ''

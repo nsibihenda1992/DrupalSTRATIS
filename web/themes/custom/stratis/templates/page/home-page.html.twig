@@ -1,0 +1,17 @@
+<div class="content">
+	 <div class="container">
+		 <div class="content-grids">
+		 {% if content.page_title %}
+			<h2 class="title">{{ content.page_title }}</h2>
+		 {% endif %}
+			<div class="col-md-8 content-main">
+				<div class="content-grid">
+				{{content.posts}}
+				</div>
+			</div>
+			{{ drupal_block('side_block') }}
+			<div class="clearfix"></div>
+		  </div>
+	  </div>
+</div>
+

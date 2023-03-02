@@ -1,0 +1,20 @@
+uuid: 6dbac037-2287-48e9-97eb-e9471ef2e936
+langcode: fr
+status: false
+dependencies:
+  theme:
+    - stratis
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: stratis_page_title
+theme: stratis
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

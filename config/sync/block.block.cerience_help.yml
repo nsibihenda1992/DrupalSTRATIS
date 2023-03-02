@@ -1,0 +1,22 @@
+uuid: 0c767f59-09e2-408a-a9d5-8bcaf78b325a
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - cerience
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: cerience_help
+theme: cerience
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,31 @@
+stratis_base.contact:
+  path: '/contact-us'
+  defaults:
+    _controller: '\Drupal\stratis_base\Controller\ContactController::formulaire'
+    _title: "Contact"
+  requirements:
+    _permission: 'access content'
+
+stratis_base.home_page:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\stratis_base\Controller\HomePageController::home'
+    _title: "HOME"
+  requirements:
+    _permission: 'access content'
+
+stratis_base.about_page:
+  path: '/about'
+  defaults:
+    _controller: '\Drupal\stratis_base\Controller\AboutPageController::content'
+    _title: "About"
+  requirements:
+    _permission: 'access content'
+
+stratis_base.archive:
+  path: '/archive/{date}'
+  defaults:
+    _controller: '\Drupal\stratis_base\Controller\HomePageController::archive'
+    _title: "Archive"
+  requirements:
+    _permission: 'access content'

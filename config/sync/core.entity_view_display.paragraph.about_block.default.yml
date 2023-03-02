@@ -1,0 +1,31 @@
+uuid: 076af3ce-70c6-4dbe-bad5-4ff8241df802
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_block.field_text
+    - field.field.paragraph.about_block.field_title
+    - paragraphs.paragraphs_type.about_block
+  module:
+    - text
+id: paragraph.about_block.default
+targetEntityType: paragraph
+bundle: about_block
+mode: default
+content:
+  field_text:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

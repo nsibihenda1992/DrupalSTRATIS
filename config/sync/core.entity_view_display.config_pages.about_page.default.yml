@@ -1,0 +1,33 @@
+uuid: afe1393e-d148-4129-8c44-2c560228870b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - config_pages.type.about_page
+    - field.field.config_pages.about_page.field_content
+    - field.field.config_pages.about_page.field_title
+  module:
+    - entity_reference_revisions
+id: config_pages.about_page.default
+targetEntityType: config_pages
+bundle: about_page
+mode: default
+content:
+  field_content:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

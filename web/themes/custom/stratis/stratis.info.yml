@@ -1,0 +1,10 @@
+name: Stratis
+type: theme
+base theme: classy
+description: 'Stratis theme'
+package: Core
+version: VERSION
+core_version_requirement: 9.x
+
+libraries:
+  - stratis/base

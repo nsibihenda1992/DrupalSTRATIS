@@ -1,0 +1,11 @@
+base:
+  css:
+    theme:
+      assets/css/style.css: {}
+      assets/css/bootstrap.css: {}
+      assets/css/custom.css: {}
+  js:
+    assets/js/easing.js: {}
+    assets/js/jquery.min.js: {}
+    assets/js/move-top.js: {}
+    assets/js/custom.js: {}

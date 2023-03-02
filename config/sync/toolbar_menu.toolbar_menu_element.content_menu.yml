@@ -1,0 +1,9 @@
+uuid: bd8943d4-0733-4e07-aedc-14c200a2ff2b
+langcode: fr
+status: true
+dependencies: {  }
+id: content_menu
+label: 'Content menu'
+weight: null
+menu: content-menu
+rewrite_label: false

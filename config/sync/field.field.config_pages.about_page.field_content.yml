@@ -1,0 +1,36 @@
+uuid: 326d4b66-b97f-4dae-8c99-6aabea26cbd4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - config_pages.type.about_page
+    - field.storage.config_pages.field_content
+    - paragraphs.paragraphs_type.about_block
+    - paragraphs.paragraphs_type.about_block_with_image
+  module:
+    - entity_reference_revisions
+id: config_pages.about_page.field_content
+field_name: field_content
+entity_type: config_pages
+bundle: about_page
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      about_block: about_block
+      about_block_with_image: about_block_with_image
+    negate: 0
+    target_bundles_drag_drop:
+      about_block:
+        weight: 3
+        enabled: true
+      about_block_with_image:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

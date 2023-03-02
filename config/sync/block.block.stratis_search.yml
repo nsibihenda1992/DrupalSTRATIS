@@ -1,0 +1,23 @@
+uuid: 9db326df-c634-467e-9193-e5dac4bd2bbf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - stratis
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: stratis_search
+theme: stratis
+region: primary_menu
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Rechercher
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

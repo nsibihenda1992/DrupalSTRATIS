@@ -1,0 +1,18 @@
+uuid: d8490817-a77d-4baf-abde-030a9fb67932
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Poste
+type: post
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

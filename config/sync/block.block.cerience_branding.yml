@@ -1,0 +1,25 @@
+uuid: 9f968a9a-164e-48ae-b28b-10721cfde18d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cerience
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: cerience_branding
+theme: cerience
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Identité du site'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,51 @@
+ <div class="col-md-4 side-content">
+  {% if content.posts %}
+    <div class="recent">
+      <h3>RECENT POSTS</h3>
+      <ul>
+      {% for post,link in content.posts %}
+        <li><a href="{{ link}}">{{ post }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+  {% if content.comments %}
+    <div class="comments">
+      <h3>RECENT COMMENTS</h3>
+      <ul>
+      {% for comment in content.comments %}
+        <li><a href= "{{ comment.auther_link}}">{{ comment.auther_name}}</a> on <a href="{{comment.commented_post_link}}">{{ comment.commented_post_title}}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+  <div class="clearfix"></div>
+  {% if content.months %}
+  <div class="archives">
+    <h3>ARCHIVES</h3>
+    <ul>
+    {% for month in content.months %}
+      <li><a href="{{  path('stratis_base.archive',
+                            {'date': month.link_date},
+                            {'query': {
+                              'date_start': month.date_start,
+                            }}
+                            )
+                    }}">{{ month.string_date }}</a></li>
+
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  {% if content.categories %}
+  <div class="categories">
+    <h3>CATEGORIES</h3>
+    <ul>
+    {% for name,link in content.categories %}
+      <li><a href="{{link}}">{{name}}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  <div class="clearfix"></div>
+</div>

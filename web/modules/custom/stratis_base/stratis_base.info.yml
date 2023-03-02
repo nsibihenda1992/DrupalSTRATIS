@@ -1,0 +1,7 @@
+name: Stratis Base
+description: Provides Stratis Base.
+package: Stratis
+type: module
+core_version_requirement: 9.x
+project: 'stratis'
+version: 1.0

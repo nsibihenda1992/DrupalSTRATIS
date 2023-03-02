@@ -1,0 +1,19 @@
+uuid: e3b3b615-119f-4407-b0ed-0d5d1fb6bc5c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - config_pages.type.about_page
+    - field.storage.config_pages.field_title
+id: config_pages.about_page.field_title
+field_name: field_title
+entity_type: config_pages
+bundle: about_page
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

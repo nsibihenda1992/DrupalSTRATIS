@@ -1,0 +1,22 @@
+uuid: bfe5987a-5d52-4fa6-a8fa-d806e77c32bf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stratis
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: stratis_messages
+theme: stratis
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

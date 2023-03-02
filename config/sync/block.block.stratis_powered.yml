@@ -1,0 +1,22 @@
+uuid: d8839af4-6f0d-4700-a313-a019d1e9ac76
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stratis
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: stratis_powered
+theme: stratis
+region: sidebar_first
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

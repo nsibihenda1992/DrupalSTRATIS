@@ -1,0 +1,8 @@
+uuid: 2d64f26c-2e8e-4023-a9ca-1c8694f4ab88
+langcode: und
+status: true
+dependencies: {  }
+id: format_teaser_post
+label: 'Format teaser post'
+locked: false
+pattern: 'F j,  Y - H:i'

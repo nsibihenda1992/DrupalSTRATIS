@@ -1,0 +1,22 @@
+uuid: 72c207ff-4476-423c-a227-eb1de51f4546
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - stratis
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: stratis_help
+theme: stratis
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,34 @@
+uuid: dee39379-2165-4404-8dc7-1a6b0b63ade4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_block.field_text
+    - field.field.paragraph.about_block.field_title
+    - paragraphs.paragraphs_type.about_block
+  module:
+    - text
+id: paragraph.about_block.default
+targetEntityType: paragraph
+bundle: about_block
+mode: default
+content:
+  field_text:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

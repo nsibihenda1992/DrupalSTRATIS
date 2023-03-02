@@ -1,0 +1,8 @@
+uuid: 5e2dcf0e-35b6-4f24-bccd-bed027e522ef
+langcode: fr
+status: true
+dependencies: {  }
+id: post_comment
+label: 'Commentaire Poste'
+target_entity_type_id: node
+description: ''

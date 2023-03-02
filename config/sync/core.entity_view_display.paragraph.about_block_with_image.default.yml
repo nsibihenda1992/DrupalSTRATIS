@@ -1,0 +1,41 @@
+uuid: 74c4e0f9-0541-459c-9257-2d5956089192
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_block_with_image.field_image
+    - field.field.paragraph.about_block_with_image.field_text
+    - field.field.paragraph.about_block_with_image.field_title
+    - paragraphs.paragraphs_type.about_block_with_image
+  module:
+    - text
+id: paragraph.about_block_with_image.default
+targetEntityType: paragraph
+bundle: about_block_with_image
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_text:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

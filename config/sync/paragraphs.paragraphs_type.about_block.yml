@@ -1,0 +1,10 @@
+uuid: 4eb91a7e-da10-4837-9781-19c547360aca
+langcode: fr
+status: true
+dependencies: {  }
+id: about_block
+label: 'About Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

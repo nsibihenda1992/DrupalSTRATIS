@@ -1,0 +1,22 @@
+uuid: faf86d25-24b0-4114-a7bc-0860bc3a26f8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stratis
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: stratis_breadcrumbs
+theme: stratis
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  label_display: '0'
+  provider: system
+visibility: {  }

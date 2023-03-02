@@ -1,0 +1,59 @@
+uuid: c3c80608-c03d-4d8f-ab39-d2d2173d5661
+langcode: fr
+status: true
+dependencies:
+  config:
+    - comment.type.post_comment
+    - field.field.comment.post_comment.field_comment_body
+    - field.field.comment.post_comment.field_email
+    - field.field.comment.post_comment.field_name_sender
+id: comment.post_comment.default
+targetEntityType: comment
+bundle: post_comment
+mode: default
+content:
+  author:
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_comment_body:
+    type: string_textarea
+    weight: 6
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_email:
+    type: email_default
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+      size: 60
+    third_party_settings: {  }
+  field_name_sender:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 5
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 13b8f7cd-9cad-4866-8805-4e1f74785f9c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text
+    - paragraphs.paragraphs_type.about_block_with_image
+  module:
+    - text
+id: paragraph.about_block_with_image.field_text
+field_name: field_text
+entity_type: paragraph
+bundle: about_block_with_image
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

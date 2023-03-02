@@ -1,0 +1,8 @@
+uuid: 03f2ebca-db14-4ab1-91d7-baa86afceb47
+langcode: fr
+status: true
+dependencies: {  }
+id: content-menu
+label: 'Content menu'
+description: ''
+locked: false

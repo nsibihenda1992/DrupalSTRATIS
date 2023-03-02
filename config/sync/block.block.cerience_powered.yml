@@ -1,0 +1,22 @@
+uuid: 7eacb098-bfae-467b-ad94-1d367000ec36
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - cerience
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: cerience_powered
+theme: cerience
+region: sidebar_first
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

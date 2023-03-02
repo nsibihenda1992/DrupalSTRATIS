@@ -1,0 +1,23 @@
+uuid: 4677a307-d597-43bd-b90f-5a47e8e181e2
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - cerience
+_core:
+  default_config_hash: jQ-C8l3dJPqYCGST1e-kSjR14PDP4wq-iFbp8dMFcRo
+id: cerience_search
+theme: cerience
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Rechercher
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }
